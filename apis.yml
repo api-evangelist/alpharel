@@ -1,7 +1,25 @@
 aid: alpharel
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alpharel.png
 name: Alpharel
-description: Alpharel is a company surfaced as a portfolio company of battery-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Alpharel, Inc. was a Camarillo, California document-management and imaging
+  company founded in 1981 that built turnkey digital document transmission and management
+  systems (scanners, optical disks, terminals, LANs) for industrial, commercial, and
+  government use. It acquired Optigraphics in 1993, renamed itself Altris Software in
+  October 1996, and its business was ultimately succeeded by Spescom Software, Inc. of
+  San Diego. Alpharel appears in the Battery Ventures portfolio list. The company is
+  DEFUNCT under this name: it has no active first-party website, developer portal, API,
+  or SDKs, so there is no API/developer surface for the enrichment pipeline to harvest.'
 url: https://raw.githubusercontent.com/api-evangelist/alpharel/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +27,37 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-founded: '1981'
+x-headquarters: Camarillo, California, United States
+x-former-names:
+- Altris Software, Inc.
+x-successor: Spescom Software, Inc.
+x-enrichment-note: 'Researched 2026-07-17: defunct historical company (1981–1996 as Alpharel,
+  then Altris Software), no live API/developer surface; alpharel.io resolves to an unrelated
+  repurposed domain (daga.claims). No artifacts searched/generated/derived without fabrication.'
+x-enrichment-sources:
+- https://scripophily.net/alpharel-inc-california-became-altris-software/
+- https://pitchbook.com/profiles/company/59228-29
+- https://www.cbinsights.com/company/alpharel
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Document Management
+- Electronic Document Management
+- Imaging
+- Enterprise Software
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

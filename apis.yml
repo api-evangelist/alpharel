@@ -56,7 +56,7 @@ created: '2026-07-17'
 modified: '2026-07-18'
 tags:
 - Company
-- Document-Management
+- Document Management
 - Electronic Document Management
 - Imaging
 - Enterprise Software
@@ -68,6 +68,7 @@ tags_raw:
 - Imaging
 - Enterprise Software
 - Defunct
+- Document-Management
 apis: []
 maintainers:
 - FN: Kin Lane
